@@ -1,0 +1,2 @@
+INFO     logger:test_api.py:48 {'code': 0, 'msg': {'data': [{'id': 1636697118, 'username': '朱詩涵', 'email': 'michaelpark@example.com', 'info': '褒忠縣'}, {'id': 1636697167, 'username': '李家銘', 'email': 'yolson@example.org', 'info': '高雄'}]}}
+INFO     logger:test_api.py:53 {'code': 0, 'msg': {'data': []}}

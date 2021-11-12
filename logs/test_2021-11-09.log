@@ -1,0 +1,218 @@
+[2021-11-09 16:43:31] [DEBUG] [baseapi.py]/[line: 15]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:43:31] [DEBUG] [baseapi.py]/[line: 17]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:43:31] [DEBUG] [baseapi.py]/[line: 15]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:43:31] [DEBUG] [baseapi.py]/[line: 17]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:46:06] [DEBUG] [baseapi.py]/[line: 17]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:46:06] [DEBUG] [baseapi.py]/[line: 19]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:46:06] [DEBUG] [baseapi.py]/[line: 17]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:46:06] [DEBUG] [baseapi.py]/[line: 19]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:49:42] [DEBUG] [baseapi.py]/[line: 17]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:49:42] [DEBUG] [baseapi.py]/[line: 19]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:49:42] [DEBUG] [baseapi.py]/[line: 17]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:49:42] [DEBUG] [baseapi.py]/[line: 19]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:50:18] [DEBUG] [baseapi.py]/[line: 17]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:50:18] [DEBUG] [baseapi.py]/[line: 19]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:50:18] [DEBUG] [baseapi.py]/[line: 17]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:50:18] [DEBUG] [baseapi.py]/[line: 19]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:51:12] [DEBUG] [baseapi.py]/[line: 17]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:51:12] [DEBUG] [baseapi.py]/[line: 19]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:51:12] [DEBUG] [baseapi.py]/[line: 17]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:51:12] [DEBUG] [baseapi.py]/[line: 19]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:52:33] [DEBUG] [baseapi.py]/[line: 17]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:52:33] [DEBUG] [baseapi.py]/[line: 19]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:52:33] [DEBUG] [baseapi.py]/[line: 17]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:52:33] [DEBUG] [baseapi.py]/[line: 19]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:52:33] [DEBUG] [baseapi.py]/[line: 17]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:52:34] [DEBUG] [baseapi.py]/[line: 19]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:55:25] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************�ӿ�������Ϣ********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:55:25] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************�ӿڷ�����Ϣ********************
+{'id': 'USER_BUSINESS', 'msg': '�û��������������˺Ŷ���', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:55:25] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************�ӿ�������Ϣ********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:55:25] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************�ӿڷ�����Ϣ********************
+{'id': 'CAPTCHA_ERROR', 'msg': '��֤�����', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:55:25] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************�ӿ�������Ϣ********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:55:25] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************�ӿڷ�����Ϣ********************
+{'id': 'USER_BUSINESS', 'msg': '�û��������������˺Ŷ���', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:56:39] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************�ӿ�������Ϣ********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:56:39] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************�ӿڷ�����Ϣ********************
+{'id': 'USER_BUSINESS', 'msg': '�û��������������˺Ŷ���', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:56:39] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************�ӿ�������Ϣ********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:56:39] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************�ӿڷ�����Ϣ********************
+{'id': 'CAPTCHA_ERROR', 'msg': '��֤�����', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:57:01] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************�ӿ�������Ϣ********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:57:01] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************�ӿڷ�����Ϣ********************
+{'id': 'USER_BUSINESS', 'msg': '�û��������������˺Ŷ���', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:57:01] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************�ӿ�������Ϣ********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:57:01] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************�ӿڷ�����Ϣ********************
+{'id': 'CAPTCHA_ERROR', 'msg': '��֤�����', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:58:21] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:58:21] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:58:21] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:58:21] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:58:33] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:58:33] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:58:33] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:58:33] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:58:44] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:58:44] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 16:58:44] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 16:58:45] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:04:05] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 17:04:05] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:04:05] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 17:04:05] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:04:16] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 17:04:16] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:04:16] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+('post', '/rest/login', {'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}}) 
+[2021-11-09 17:04:16] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:05:42] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法post，接口地址/rest/login，入参信息{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-09 17:05:42] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:05:42] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法post，接口地址/rest/login，入参信息{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-09 17:05:42] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:06:06] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法post
+接口地址/rest/login
+入参信息{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-09 17:06:06] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:06:06] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法post
+接口地址/rest/login
+入参信息{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-09 17:06:07] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:06:22] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-09 17:06:22] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:06:22] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-09 17:06:22] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:09:55] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-09 17:09:55] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:09:55] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-09 17:09:55] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:12:33] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-09 17:12:33] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:12:33] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-09 17:12:34] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:12:34] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-09 17:12:34] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:12:41] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-09 17:12:41] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:12:41] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-09 17:12:41] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:12:41] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-09 17:12:41] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:12:41] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-09 17:12:41] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:12:41] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-09 17:12:41] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-09 17:12:41] [DEBUG] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-09 17:12:41] [DEBUG] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 

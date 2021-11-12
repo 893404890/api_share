@@ -1,0 +1,1 @@
+INFO     logger:test_api.py:38 {'code': 40002, 'msg': 'Case is not exist'}

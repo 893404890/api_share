@@ -1,0 +1,7 @@
+baseurl: http://120.133.67.133:20007
+mysql:
+    host: 10.241.110.1
+    port: 3306
+    db: testapi
+    user: root
+    password: 123456

@@ -1,0 +1,1 @@
+INFO     logger:test_api.py:29 {'code': 0, 'msg': 'Case id 1636697167 success add'}

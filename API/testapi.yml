@@ -1,0 +1,7 @@
+查询接口:
+    url: /search
+    headers:
+      content-type: application/json
+      Cookie: $cookie
+
+

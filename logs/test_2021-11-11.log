@@ -1,0 +1,480 @@
+[2021-11-11 09:38:49] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 1, 'username': '周栒', 'email': 'zhouxun@bonree.com', 'info': '个人信息'} 
+[2021-11-11 09:38:52] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 09:38:52] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id 1 success add 
+[2021-11-11 09:38:52] [INFO] [test_api.py]/[line: 32]/[test_add] {'code': 0, 'msg': 'Case id 1 success add'} 
+[2021-11-11 09:38:52] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 09:38:53] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 09:38:53] [INFO] [test_api.py]/[line: 35]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 09:39:43] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 1, 'username': '周栒', 'email': 'zhouxun@bonree.com', 'info': '个人信息'} 
+[2021-11-11 09:39:44] [INFO] [api.py]/[line: 48]/[post] <TestCase 1> 
+[2021-11-11 09:39:44] [INFO] [test_api.py]/[line: 32]/[test_add] {'code': 40001, 'msg': 'Case is exist'} 
+[2021-11-11 09:39:44] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 09:39:45] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 09:39:45] [INFO] [test_api.py]/[line: 35]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 09:40:15] [INFO] [api.py]/[line: 69]/[put] 接收到的参数 <==== {'id': 1, 'username': '周栒', 'email': 'zhouxun@bonree.com', 'info': '个人信息1'} 
+[2021-11-11 09:40:15] [INFO] [api.py]/[line: 74]/[put] <TestCase 1> 
+[2021-11-11 09:40:15] [INFO] [api.py]/[line: 79]/[put] 将要返回的内容 ====> Case id 1 success change to {'id': 1, 'username': '周栒', 'email': 'zhouxun@bonree.com', 'info': '个人信息1'} 
+[2021-11-11 09:40:15] [INFO] [test_api.py]/[line: 79]/[test_update] {'code': 0, 'msg': "Case id 1 success change to {'id': 1, 'username': '周栒', 'email': 'zhouxun@bonree.com', 'info': '个人信息1'}"} 
+[2021-11-11 09:40:31] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== None 
+[2021-11-11 09:40:31] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [{'id': 1, 'username': '周栒', 'email': 'zhouxun@bonree.com', 'info': '个人信息1'}] 
+[2021-11-11 09:40:31] [INFO] [test_api.py]/[line: 59]/[test_select] {'code': 0, 'msg': {'data': [{'id': 1, 'username': '周栒', 'email': 'zhouxun@bonree.com', 'info': '个人信息1'}]}} 
+[2021-11-11 09:40:31] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 2 
+[2021-11-11 09:40:31] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 09:40:31] [INFO] [test_api.py]/[line: 64]/[test_select] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:09:52] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 1, 'username': '周栒', 'email': 'zhouxun@bonree.com', 'info': '个人信息1'} 
+[2021-11-11 10:09:52] [INFO] [api.py]/[line: 48]/[post] <TestCase 1> 
+[2021-11-11 10:09:52] [INFO] [test_api.py]/[line: 32]/[test_add] {'code': 40001, 'msg': 'Case is exist'} 
+[2021-11-11 10:09:52] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:09:52] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:09:52] [INFO] [test_api.py]/[line: 35]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:10:05] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 2, 'username': '周栒', 'email': 'zhouxun@bonree.com', 'info': '个人信息1'} 
+[2021-11-11 10:10:05] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:10:06] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 2, 'username': '周栒', 'email': 'zhouxun@bonree.com', 'info': '个人信息1'} 
+[2021-11-11 10:10:06] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:10:17] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 2, 'username': '周栒1', 'email': 'zhouxun@bonree.com', 'info': '个人信息1'} 
+[2021-11-11 10:10:17] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:10:17] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 2, 'username': '周栒1', 'email': 'zhouxun@bonree.com', 'info': '个人信息1'} 
+[2021-11-11 10:10:18] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:10:23] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 2, 'username': '周栒1', 'email': 'zhouxun@bonree.com1', 'info': '个人信息1'} 
+[2021-11-11 10:10:23] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:10:23] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id 2 success add 
+[2021-11-11 10:10:23] [INFO] [test_api.py]/[line: 32]/[test_add] {'code': 0, 'msg': 'Case id 2 success add'} 
+[2021-11-11 10:10:23] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:10:23] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:10:23] [INFO] [test_api.py]/[line: 35]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:13:07] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': None, 'email': None, 'info': '个人信息'} 
+[2021-11-11 10:13:07] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:13:07] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': None, 'email': None, 'info': '个人信息'} 
+[2021-11-11 10:13:07] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:13:25] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': None, 'email': None, 'info': '个人信息'} 
+[2021-11-11 10:13:25] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:13:25] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': None, 'email': None, 'info': '个人信息'} 
+[2021-11-11 10:13:25] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:13:29] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': None, 'email': None, 'info': '个人信息1'} 
+[2021-11-11 10:13:30] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:13:30] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': None, 'email': None, 'info': '个人信息1'} 
+[2021-11-11 10:13:30] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:13:57] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 2, 'username': None, 'email': None, 'info': '个人信息1'} 
+[2021-11-11 10:13:57] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:13:57] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 2, 'username': None, 'email': None, 'info': '个人信息1'} 
+[2021-11-11 10:13:57] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:14:12] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': 'getid', 'email': 'getid,', 'info': '个人信息1'} 
+[2021-11-11 10:14:13] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:14:13] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id None success add 
+[2021-11-11 10:14:13] [INFO] [test_api.py]/[line: 32]/[test_add] {'code': 0, 'msg': 'Case id None success add'} 
+[2021-11-11 10:14:13] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:14:13] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:14:13] [INFO] [test_api.py]/[line: 35]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:14:34] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': 'getid1', 'email': 'getid,1', 'info': '个人信息1'} 
+[2021-11-11 10:15:05] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': 'getid1', 'email': 'getid,1', 'info': '个人信息1'} 
+[2021-11-11 10:15:44] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': 'getid1', 'email': 'getid,1', 'info': '个人信息1'} 
+[2021-11-11 10:15:44] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:15:44] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id None success add 
+[2021-11-11 10:15:44] [INFO] [test_api.py]/[line: 32]/[test_add] {'code': 0, 'msg': 'Case id None success add'} 
+[2021-11-11 10:15:44] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:15:44] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [{'id': 4, 'username': 'getid1', 'email': 'getid,1', 'info': '个人信息1'}] 
+[2021-11-11 10:15:44] [INFO] [test_api.py]/[line: 35]/[test_add] {'code': 0, 'msg': {'data': [{'id': 4, 'username': 'getid1', 'email': 'getid,1', 'info': '个人信息1'}]}} 
+[2021-11-11 10:16:01] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'username': 'getid1', 'email': 'getid,1', 'info': '个人信息1'} 
+[2021-11-11 10:16:01] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:16:01] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'username': 'getid1', 'email': 'getid,1', 'info': '个人信息1'} 
+[2021-11-11 10:16:02] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:16:42] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': 'getid1', 'email': 'getid,1', 'info': '个人信息1'} 
+[2021-11-11 10:16:42] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:16:43] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': 'getid1', 'email': 'getid,1', 'info': '个人信息1'} 
+[2021-11-11 10:16:43] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:16:53] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': None, 'email': None, 'info': '个人信息1'} 
+[2021-11-11 10:16:53] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:16:54] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': None, 'email': None, 'info': '个人信息1'} 
+[2021-11-11 10:16:54] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:19:24] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 1636597164, 'username': 1636597164, 'email': 1636597164, 'info': '个人信息1'} 
+[2021-11-11 10:19:24] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:19:24] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id 1636597164 success add 
+[2021-11-11 10:19:24] [INFO] [test_api.py]/[line: 32]/[test_add] {'code': 0, 'msg': 'Case id 1636597164 success add'} 
+[2021-11-11 10:19:24] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:19:24] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [{'id': 4, 'username': 'getid1', 'email': 'getid,1', 'info': '个人信息1'}] 
+[2021-11-11 10:19:24] [INFO] [test_api.py]/[line: 35]/[test_add] {'code': 0, 'msg': {'data': [{'id': 4, 'username': 'getid1', 'email': 'getid,1', 'info': '个人信息1'}]}} 
+[2021-11-11 10:20:36] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 1636597236, 'username': 1636597236, 'email': 1636597236, 'info': '个人信息1'} 
+[2021-11-11 10:20:37] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:20:37] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id 1636597236 success add 
+[2021-11-11 10:20:37] [INFO] [test_api.py]/[line: 32]/[test_add] {'code': 0, 'msg': 'Case id 1636597236 success add'} 
+[2021-11-11 10:20:37] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:20:37] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:20:37] [INFO] [test_api.py]/[line: 35]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:20:46] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': '', 'username': 1636597246, 'email': 1636597246, 'info': '个人信息1'} 
+[2021-11-11 10:20:46] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:20:46] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': '', 'username': 1636597246, 'email': 1636597246, 'info': '个人信息1'} 
+[2021-11-11 10:20:47] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:20:59] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': 1636597259, 'email': 1636597259, 'info': '个人信息1'} 
+[2021-11-11 10:20:59] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:21:00] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id None success add 
+[2021-11-11 10:21:00] [INFO] [test_api.py]/[line: 32]/[test_add] {'code': 0, 'msg': 'Case id None success add'} 
+[2021-11-11 10:21:00] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:21:00] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:21:00] [INFO] [test_api.py]/[line: 35]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:21:15] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': 1636597275, 'email': 1636597275, 'info': '个人信息1'} 
+[2021-11-11 10:21:15] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:21:15] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id None success add 
+[2021-11-11 10:21:15] [INFO] [test_api.py]/[line: 32]/[test_add] {'code': 0, 'msg': 'Case id None success add'} 
+[2021-11-11 10:21:15] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:21:15] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:21:15] [INFO] [test_api.py]/[line: 35]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:21:43] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': 1636597303, 'email': 1636597303, 'info': '个人信息1'} 
+[2021-11-11 10:21:44] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:21:44] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id None success add 
+[2021-11-11 10:21:44] [INFO] [test_api.py]/[line: 32]/[test_add] {'code': 0, 'msg': 'Case id None success add'} 
+[2021-11-11 10:21:44] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:21:44] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:21:44] [INFO] [test_api.py]/[line: 35]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:24:18] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': 'Andrew Robinson', 'email': 1636597458, 'info': '个人信息1'} 
+[2021-11-11 10:24:18] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:24:18] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id None success add 
+[2021-11-11 10:24:18] [INFO] [test_api.py]/[line: 32]/[test_add] {'code': 0, 'msg': 'Case id None success add'} 
+[2021-11-11 10:24:18] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:24:18] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:24:18] [INFO] [test_api.py]/[line: 35]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:24:30] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': 'Jacqueline Schultz', 'email': 1636597470, 'info': '个人信息1'} 
+[2021-11-11 10:24:30] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:24:30] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id None success add 
+[2021-11-11 10:24:30] [INFO] [test_api.py]/[line: 32]/[test_add] {'code': 0, 'msg': 'Case id None success add'} 
+[2021-11-11 10:24:30] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:24:30] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:24:30] [INFO] [test_api.py]/[line: 35]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:26:32] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': '王佩珊', 'email': 1636597592, 'info': '个人信息1'} 
+[2021-11-11 10:26:32] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:26:32] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id None success add 
+[2021-11-11 10:26:32] [INFO] [test_api.py]/[line: 32]/[test_add] {'code': 0, 'msg': 'Case id None success add'} 
+[2021-11-11 10:26:32] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:26:32] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:26:32] [INFO] [test_api.py]/[line: 35]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:28:00] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': '孔志豪', 'email': '64475 板橋自由巷31號5樓', 'info': '个人信息1'} 
+[2021-11-11 10:28:00] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:28:00] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id None success add 
+[2021-11-11 10:28:00] [INFO] [test_api.py]/[line: 32]/[test_add] {'code': 0, 'msg': 'Case id None success add'} 
+[2021-11-11 10:28:00] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:28:00] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:28:00] [INFO] [test_api.py]/[line: 35]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:28:16] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': '塗家銘', 'email': 'USS Campbell\nFPO AP 99719', 'info': '个人信息1'} 
+[2021-11-11 10:28:17] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:28:17] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id None success add 
+[2021-11-11 10:28:17] [INFO] [test_api.py]/[line: 32]/[test_add] {'code': 0, 'msg': 'Case id None success add'} 
+[2021-11-11 10:28:17] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:28:17] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:28:17] [INFO] [test_api.py]/[line: 35]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:29:08] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': '宋俊傑', 'email': 'nicoleyoung@example.com', 'info': '个人信息1'} 
+[2021-11-11 10:29:08] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:29:08] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id None success add 
+[2021-11-11 10:29:08] [INFO] [test_api.py]/[line: 32]/[test_add] {'code': 0, 'msg': 'Case id None success add'} 
+[2021-11-11 10:29:08] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:29:08] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:29:08] [INFO] [test_api.py]/[line: 35]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:35:06] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 1636598106, 'username': '黃承翰', 'email': 'bbanks@example.com', 'info': '个人信息1'} 
+[2021-11-11 10:37:05] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 1636598225, 'username': '魏俊傑', 'email': 'ystanley@example.org', 'info': '个人信息1'} 
+[2021-11-11 10:37:45] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 1636598265, 'username': '劉宇軒', 'email': 'xbrown@example.org', 'info': '个人信息1'} 
+[2021-11-11 10:37:45] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:37:45] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id 1636598265 success add 
+[2021-11-11 10:37:45] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 0, 'msg': 'Case id 1636598265 success add'} 
+[2021-11-11 10:37:45] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:37:45] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:37:45] [INFO] [test_api.py]/[line: 30]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:37:45] [INFO] [api.py]/[line: 90]/[delete] 接收到的参数id <==== 1 
+[2021-11-11 10:37:45] [INFO] [api.py]/[line: 94]/[delete] None 
+[2021-11-11 10:37:45] [INFO] [test_api.py]/[line: 38]/[test_delete] {'code': 40002, 'msg': 'Case is not exist'} 
+[2021-11-11 10:37:46] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== None 
+[2021-11-11 10:37:46] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [{'id': 1636598265, 'username': '劉宇軒', 'email': 'xbrown@example.org', 'info': '个人信息1'}] 
+[2021-11-11 10:37:46] [INFO] [test_api.py]/[line: 48]/[test_select] {'code': 0, 'msg': {'data': [{'id': 1636598265, 'username': '劉宇軒', 'email': 'xbrown@example.org', 'info': '个人信息1'}]}} 
+[2021-11-11 10:37:46] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 2 
+[2021-11-11 10:37:46] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:37:46] [INFO] [test_api.py]/[line: 53]/[test_select] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:37:46] [INFO] [api.py]/[line: 69]/[put] 接收到的参数 <==== {'id': '1', 'username': '周栒', 'email': 'zhouxun@bonree.com', 'info': '个人信息1'} 
+[2021-11-11 10:37:46] [INFO] [api.py]/[line: 74]/[put] None 
+[2021-11-11 10:37:46] [INFO] [test_api.py]/[line: 66]/[test_update] {'code': 40002, 'msg': 'Case is not exist'} 
+[2021-11-11 10:38:05] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 1636598285, 'username': '牛雅慧', 'email': 'randall50@example.net', 'info': '个人信息1'} 
+[2021-11-11 10:38:05] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:38:05] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id 1636598285 success add 
+[2021-11-11 10:38:05] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 0, 'msg': 'Case id 1636598285 success add'} 
+[2021-11-11 10:38:05] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:38:05] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:38:05] [INFO] [test_api.py]/[line: 30]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:38:05] [INFO] [api.py]/[line: 90]/[delete] 接收到的参数id <==== 1 
+[2021-11-11 10:38:05] [INFO] [api.py]/[line: 94]/[delete] None 
+[2021-11-11 10:38:05] [INFO] [test_api.py]/[line: 38]/[test_delete] {'code': 40002, 'msg': 'Case is not exist'} 
+[2021-11-11 10:38:05] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== None 
+[2021-11-11 10:38:05] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [{'id': 1636598265, 'username': '劉宇軒', 'email': 'xbrown@example.org', 'info': '个人信息1'}, {'id': 1636598285, 'username': '牛雅慧', 'email': 'randall50@example.net', 'info': '个人信息1'}] 
+[2021-11-11 10:38:05] [INFO] [test_api.py]/[line: 48]/[test_select] {'code': 0, 'msg': {'data': [{'id': 1636598265, 'username': '劉宇軒', 'email': 'xbrown@example.org', 'info': '个人信息1'}, {'id': 1636598285, 'username': '牛雅慧', 'email': 'randall50@example.net', 'info': '个人信息1'}]}} 
+[2021-11-11 10:38:05] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 2 
+[2021-11-11 10:38:06] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:38:06] [INFO] [test_api.py]/[line: 53]/[test_select] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:38:06] [INFO] [api.py]/[line: 69]/[put] 接收到的参数 <==== {'id': '1', 'username': '周栒', 'email': 'zhouxun@bonree.com', 'info': '个人信息1'} 
+[2021-11-11 10:38:06] [INFO] [api.py]/[line: 74]/[put] None 
+[2021-11-11 10:38:06] [INFO] [test_api.py]/[line: 66]/[test_update] {'code': 40002, 'msg': 'Case is not exist'} 
+[2021-11-11 10:39:35] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 1636598375, 'username': '周慧君', 'email': 'millerbrenda@example.org', 'info': '个人信息1'} 
+[2021-11-11 10:39:35] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:39:35] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id 1636598375 success add 
+[2021-11-11 10:39:35] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 0, 'msg': 'Case id 1636598375 success add'} 
+[2021-11-11 10:39:35] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:39:35] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:39:35] [INFO] [test_api.py]/[line: 30]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:39:35] [INFO] [api.py]/[line: 90]/[delete] 接收到的参数id <==== 1 
+[2021-11-11 10:39:35] [INFO] [api.py]/[line: 94]/[delete] None 
+[2021-11-11 10:39:35] [INFO] [test_api.py]/[line: 38]/[test_delete] {'code': 40002, 'msg': 'Case is not exist'} 
+[2021-11-11 10:39:35] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== None 
+[2021-11-11 10:39:35] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [{'id': 1636598265, 'username': '劉宇軒', 'email': 'xbrown@example.org', 'info': '个人信息1'}, {'id': 1636598285, 'username': '牛雅慧', 'email': 'randall50@example.net', 'info': '个人信息1'}, {'id': 1636598375, 'username': '周慧君', 'email': 'millerbrenda@example.org', 'info': '个人信息1'}] 
+[2021-11-11 10:39:35] [INFO] [test_api.py]/[line: 48]/[test_select] {'code': 0, 'msg': {'data': [{'id': 1636598265, 'username': '劉宇軒', 'email': 'xbrown@example.org', 'info': '个人信息1'}, {'id': 1636598285, 'username': '牛雅慧', 'email': 'randall50@example.net', 'info': '个人信息1'}, {'id': 1636598375, 'username': '周慧君', 'email': 'millerbrenda@example.org', 'info': '个人信息1'}]}} 
+[2021-11-11 10:39:35] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 2 
+[2021-11-11 10:39:36] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:39:36] [INFO] [test_api.py]/[line: 53]/[test_select] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:39:36] [INFO] [api.py]/[line: 69]/[put] 接收到的参数 <==== {'id': '1', 'username': '周栒', 'email': 'zhouxun@bonree.com', 'info': '个人信息1'} 
+[2021-11-11 10:39:36] [INFO] [api.py]/[line: 74]/[put] None 
+[2021-11-11 10:39:36] [INFO] [test_api.py]/[line: 66]/[test_update] {'code': 40002, 'msg': 'Case is not exist'} 
+[2021-11-11 10:40:03] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 1636598403, 'username': '鞠馨儀', 'email': 'kennetholson@example.org', 'info': '个人信息1'} 
+[2021-11-11 10:40:03] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:40:03] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id 1636598403 success add 
+[2021-11-11 10:40:03] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 0, 'msg': 'Case id 1636598403 success add'} 
+[2021-11-11 10:40:03] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:40:03] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:40:03] [INFO] [test_api.py]/[line: 30]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:40:03] [INFO] [api.py]/[line: 90]/[delete] 接收到的参数id <==== 1 
+[2021-11-11 10:40:03] [INFO] [api.py]/[line: 94]/[delete] None 
+[2021-11-11 10:40:03] [INFO] [test_api.py]/[line: 38]/[test_delete] {'code': 40002, 'msg': 'Case is not exist'} 
+[2021-11-11 10:40:03] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== None 
+[2021-11-11 10:40:03] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [{'id': 1636598265, 'username': '劉宇軒', 'email': 'xbrown@example.org', 'info': '个人信息1'}, {'id': 1636598285, 'username': '牛雅慧', 'email': 'randall50@example.net', 'info': '个人信息1'}, {'id': 1636598375, 'username': '周慧君', 'email': 'millerbrenda@example.org', 'info': '个人信息1'}, {'id': 1636598403, 'username': '鞠馨儀', 'email': 'kennetholson@example.org', 'info': '个人信息1'}] 
+[2021-11-11 10:40:03] [INFO] [test_api.py]/[line: 48]/[test_select] {'code': 0, 'msg': {'data': [{'id': 1636598265, 'username': '劉宇軒', 'email': 'xbrown@example.org', 'info': '个人信息1'}, {'id': 1636598285, 'username': '牛雅慧', 'email': 'randall50@example.net', 'info': '个人信息1'}, {'id': 1636598375, 'username': '周慧君', 'email': 'millerbrenda@example.org', 'info': '个人信息1'}, {'id': 1636598403, 'username': '鞠馨儀', 'email': 'kennetholson@example.org', 'info': '个人信息1'}]}} 
+[2021-11-11 10:40:03] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 2 
+[2021-11-11 10:40:04] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:40:04] [INFO] [test_api.py]/[line: 53]/[test_select] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:40:04] [INFO] [api.py]/[line: 69]/[put] 接收到的参数 <==== {'id': '1', 'username': '周栒', 'email': 'zhouxun@bonree.com', 'info': '个人信息1'} 
+[2021-11-11 10:40:04] [INFO] [api.py]/[line: 74]/[put] None 
+[2021-11-11 10:40:04] [INFO] [test_api.py]/[line: 66]/[test_update] {'code': 40002, 'msg': 'Case is not exist'} 
+[2021-11-11 10:40:04] [INFO] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-11 10:40:04] [INFO] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-11 10:40:04] [INFO] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-11 10:40:04] [INFO] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-11 10:40:04] [INFO] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-11 10:40:04] [INFO] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-11 10:40:04] [INFO] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-11 10:40:04] [INFO] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-11 10:40:33] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 1636598433, 'username': '楊俊宏', 'email': 'kmunoz@example.net', 'info': '个人信息1'} 
+[2021-11-11 10:41:03] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 1636598463, 'username': '胡惠雯', 'email': 'keith20@example.net', 'info': '个人信息1'} 
+[2021-11-11 10:41:33] [INFO] [api.py]/[line: 90]/[delete] 接收到的参数id <==== 1 
+[2021-11-11 10:42:03] [INFO] [api.py]/[line: 90]/[delete] 接收到的参数id <==== 1 
+[2021-11-11 10:42:15] [INFO] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-11 10:42:15] [INFO] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-11 10:42:15] [INFO] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-11 10:42:15] [INFO] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-11 10:42:15] [INFO] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-11 10:42:15] [INFO] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-11 10:42:16] [INFO] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-11 10:42:16] [INFO] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-11 10:42:32] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 1636598552, 'username': '解怡萱', 'email': 'ereid@example.net', 'info': '个人信息1'} 
+[2021-11-11 10:42:33] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:42:33] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id 1636598552 success add 
+[2021-11-11 10:42:33] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 0, 'msg': 'Case id 1636598552 success add'} 
+[2021-11-11 10:42:33] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:42:33] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:42:33] [INFO] [test_api.py]/[line: 30]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:42:33] [INFO] [api.py]/[line: 90]/[delete] 接收到的参数id <==== 1 
+[2021-11-11 10:42:33] [INFO] [api.py]/[line: 94]/[delete] None 
+[2021-11-11 10:42:33] [INFO] [test_api.py]/[line: 38]/[test_delete] {'code': 40002, 'msg': 'Case is not exist'} 
+[2021-11-11 10:42:33] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== None 
+[2021-11-11 10:42:33] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [{'id': 1636598265, 'username': '劉宇軒', 'email': 'xbrown@example.org', 'info': '个人信息1'}, {'id': 1636598285, 'username': '牛雅慧', 'email': 'randall50@example.net', 'info': '个人信息1'}, {'id': 1636598375, 'username': '周慧君', 'email': 'millerbrenda@example.org', 'info': '个人信息1'}, {'id': 1636598403, 'username': '鞠馨儀', 'email': 'kennetholson@example.org', 'info': '个人信息1'}, {'id': 1636598552, 'username': '解怡萱', 'email': 'ereid@example.net', 'info': '个人信息1'}] 
+[2021-11-11 10:42:33] [INFO] [test_api.py]/[line: 48]/[test_select] {'code': 0, 'msg': {'data': [{'id': 1636598265, 'username': '劉宇軒', 'email': 'xbrown@example.org', 'info': '个人信息1'}, {'id': 1636598285, 'username': '牛雅慧', 'email': 'randall50@example.net', 'info': '个人信息1'}, {'id': 1636598375, 'username': '周慧君', 'email': 'millerbrenda@example.org', 'info': '个人信息1'}, {'id': 1636598403, 'username': '鞠馨儀', 'email': 'kennetholson@example.org', 'info': '个人信息1'}, {'id': 1636598552, 'username': '解怡萱', 'email': 'ereid@example.net', 'info': '个人信息1'}]}} 
+[2021-11-11 10:42:33] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 2 
+[2021-11-11 10:42:33] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:42:33] [INFO] [test_api.py]/[line: 53]/[test_select] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:42:33] [INFO] [api.py]/[line: 69]/[put] 接收到的参数 <==== {'id': '1', 'username': '周栒', 'email': 'zhouxun@bonree.com', 'info': '个人信息1'} 
+[2021-11-11 10:42:33] [INFO] [api.py]/[line: 74]/[put] None 
+[2021-11-11 10:42:33] [INFO] [test_api.py]/[line: 66]/[test_update] {'code': 40002, 'msg': 'Case is not exist'} 
+[2021-11-11 10:42:33] [INFO] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-11 10:42:34] [INFO] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-11 10:42:34] [INFO] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-11 10:42:34] [INFO] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-11 10:42:34] [INFO] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-11 10:42:34] [INFO] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-11 10:42:34] [INFO] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-11 10:42:34] [INFO] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-11 10:44:51] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 1636598690, 'username': '王佳慧', 'email': 'uyu@example.com', 'info': '个人信息1'} 
+[2021-11-11 10:44:51] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:44:51] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id 1636598690 success add 
+[2021-11-11 10:44:51] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 0, 'msg': 'Case id 1636598690 success add'} 
+[2021-11-11 10:44:51] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:44:51] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:44:51] [INFO] [test_api.py]/[line: 30]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:44:51] [INFO] [api.py]/[line: 90]/[delete] 接收到的参数id <==== 1 
+[2021-11-11 10:44:51] [INFO] [api.py]/[line: 94]/[delete] None 
+[2021-11-11 10:44:51] [INFO] [test_api.py]/[line: 38]/[test_delete] {'code': 40002, 'msg': 'Case is not exist'} 
+[2021-11-11 10:44:51] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== None 
+[2021-11-11 10:44:51] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [{'id': 1636598265, 'username': '劉宇軒', 'email': 'xbrown@example.org', 'info': '个人信息1'}, {'id': 1636598285, 'username': '牛雅慧', 'email': 'randall50@example.net', 'info': '个人信息1'}, {'id': 1636598375, 'username': '周慧君', 'email': 'millerbrenda@example.org', 'info': '个人信息1'}, {'id': 1636598403, 'username': '鞠馨儀', 'email': 'kennetholson@example.org', 'info': '个人信息1'}, {'id': 1636598552, 'username': '解怡萱', 'email': 'ereid@example.net', 'info': '个人信息1'}, {'id': 1636598690, 'username': '王佳慧', 'email': 'uyu@example.com', 'info': '个人信息1'}] 
+[2021-11-11 10:44:51] [INFO] [test_api.py]/[line: 48]/[test_select] {'code': 0, 'msg': {'data': [{'id': 1636598265, 'username': '劉宇軒', 'email': 'xbrown@example.org', 'info': '个人信息1'}, {'id': 1636598285, 'username': '牛雅慧', 'email': 'randall50@example.net', 'info': '个人信息1'}, {'id': 1636598375, 'username': '周慧君', 'email': 'millerbrenda@example.org', 'info': '个人信息1'}, {'id': 1636598403, 'username': '鞠馨儀', 'email': 'kennetholson@example.org', 'info': '个人信息1'}, {'id': 1636598552, 'username': '解怡萱', 'email': 'ereid@example.net', 'info': '个人信息1'}, {'id': 1636598690, 'username': '王佳慧', 'email': 'uyu@example.com', 'info': '个人信息1'}]}} 
+[2021-11-11 10:44:51] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 2 
+[2021-11-11 10:44:51] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:44:51] [INFO] [test_api.py]/[line: 53]/[test_select] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:44:51] [INFO] [api.py]/[line: 69]/[put] 接收到的参数 <==== {'id': '1', 'username': '周栒', 'email': 'zhouxun@bonree.com', 'info': '个人信息1'} 
+[2021-11-11 10:44:51] [INFO] [api.py]/[line: 74]/[put] None 
+[2021-11-11 10:44:51] [INFO] [test_api.py]/[line: 66]/[test_update] {'code': 40002, 'msg': 'Case is not exist'} 
+[2021-11-11 10:45:36] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': 1636598736, 'username': '劉志宏', 'email': 'muellerrobert@example.com', 'info': '个人信息1'} 
+[2021-11-11 10:45:36] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 10:45:36] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id 1636598736 success add 
+[2021-11-11 10:45:36] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 0, 'msg': 'Case id 1636598736 success add'} 
+[2021-11-11 10:45:36] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 10:45:36] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:45:36] [INFO] [test_api.py]/[line: 30]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:45:36] [INFO] [api.py]/[line: 90]/[delete] 接收到的参数id <==== 1 
+[2021-11-11 10:45:37] [INFO] [api.py]/[line: 94]/[delete] None 
+[2021-11-11 10:45:37] [INFO] [test_api.py]/[line: 38]/[test_delete] {'code': 40002, 'msg': 'Case is not exist'} 
+[2021-11-11 10:45:37] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== None 
+[2021-11-11 10:45:37] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [{'id': 1636598265, 'username': '劉宇軒', 'email': 'xbrown@example.org', 'info': '个人信息1'}, {'id': 1636598285, 'username': '牛雅慧', 'email': 'randall50@example.net', 'info': '个人信息1'}, {'id': 1636598375, 'username': '周慧君', 'email': 'millerbrenda@example.org', 'info': '个人信息1'}, {'id': 1636598403, 'username': '鞠馨儀', 'email': 'kennetholson@example.org', 'info': '个人信息1'}, {'id': 1636598552, 'username': '解怡萱', 'email': 'ereid@example.net', 'info': '个人信息1'}, {'id': 1636598690, 'username': '王佳慧', 'email': 'uyu@example.com', 'info': '个人信息1'}, {'id': 1636598736, 'username': '劉志宏', 'email': 'muellerrobert@example.com', 'info': '个人信息1'}] 
+[2021-11-11 10:45:37] [INFO] [test_api.py]/[line: 48]/[test_select] {'code': 0, 'msg': {'data': [{'id': 1636598265, 'username': '劉宇軒', 'email': 'xbrown@example.org', 'info': '个人信息1'}, {'id': 1636598285, 'username': '牛雅慧', 'email': 'randall50@example.net', 'info': '个人信息1'}, {'id': 1636598375, 'username': '周慧君', 'email': 'millerbrenda@example.org', 'info': '个人信息1'}, {'id': 1636598403, 'username': '鞠馨儀', 'email': 'kennetholson@example.org', 'info': '个人信息1'}, {'id': 1636598552, 'username': '解怡萱', 'email': 'ereid@example.net', 'info': '个人信息1'}, {'id': 1636598690, 'username': '王佳慧', 'email': 'uyu@example.com', 'info': '个人信息1'}, {'id': 1636598736, 'username': '劉志宏', 'email': 'muellerrobert@example.com', 'info': '个人信息1'}]}} 
+[2021-11-11 10:45:37] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 2 
+[2021-11-11 10:45:37] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 10:45:37] [INFO] [test_api.py]/[line: 53]/[test_select] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 10:45:37] [INFO] [api.py]/[line: 69]/[put] 接收到的参数 <==== {'id': '1', 'username': '周栒', 'email': 'zhouxun@bonree.com', 'info': '个人信息1'} 
+[2021-11-11 10:45:37] [INFO] [api.py]/[line: 74]/[put] None 
+[2021-11-11 10:45:37] [INFO] [test_api.py]/[line: 66]/[test_update] {'code': 40002, 'msg': 'Case is not exist'} 
+[2021-11-11 10:45:37] [INFO] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-11 10:45:37] [INFO] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'USER_BUSINESS', 'msg': '用户名、密码错误或账号冻结', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-11 10:45:37] [INFO] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-11 10:45:37] [INFO] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-11 10:45:37] [INFO] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-11 10:45:37] [INFO] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-11 10:45:38] [INFO] [baseapi.py]/[line: 16]/[request] ******************接口请求信息********************
+请求方法:post
+接口地址:/rest/login
+入参信息:{'json': {'accountName': 'admin', 'password': 'bonree', 'captcha': 'bonree1'}, 'headers': {'Content-Type': 'application/json'}} 
+[2021-11-11 10:45:38] [INFO] [baseapi.py]/[line: 18]/[request] ******************接口返回信息********************
+{'id': 'CAPTCHA_ERROR', 'msg': '验证码错误', 'field': '', 'data': None, 'status': '200'} 
+[2021-11-11 14:02:53] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': {'AGE': 23, '性别': '男'}} 
+[2021-11-11 14:02:54] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 14:02:54] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': {'AGE': 23, '性别': '男'}} 
+[2021-11-11 14:02:54] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 14:04:33] [INFO] [api.py]/[line: 43]/[post] 接收到的参数 <==== {'id': None, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': '个人信息'} 
+[2021-11-11 14:04:33] [INFO] [api.py]/[line: 48]/[post] None 
+[2021-11-11 14:04:33] [INFO] [api.py]/[line: 58]/[post] 将要返回的内容 ====> Case id None success add 
+[2021-11-11 14:04:33] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 0, 'msg': 'Case id None success add'} 
+[2021-11-11 14:04:33] [INFO] [api.py]/[line: 20]/[get] 接收到的参数id <==== 4 
+[2021-11-11 14:04:33] [INFO] [api.py]/[line: 33]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 14:04:33] [INFO] [test_api.py]/[line: 30]/[test_add] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 14:53:43] [INFO] [api.py]/[line: 21]/[get] 接收到的参数id <==== None 
+[2021-11-11 14:53:44] [INFO] [api.py]/[line: 34]/[get] 将要返回的内容 ====> [{'id': 1636598737, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': '个人信息'}] 
+[2021-11-11 14:53:44] [INFO] [test_api.py]/[line: 46]/[test_select] {'code': 0, 'msg': {'data': [{'id': 1636598737, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': '个人信息'}]}} 
+[2021-11-11 14:53:44] [INFO] [api.py]/[line: 21]/[get] 接收到的参数id <==== 2 
+[2021-11-11 14:53:44] [INFO] [api.py]/[line: 34]/[get] 将要返回的内容 ====> [] 
+[2021-11-11 14:53:44] [INFO] [test_api.py]/[line: 51]/[test_select] {'code': 0, 'msg': {'data': []}} 
+[2021-11-11 14:53:53] [INFO] [api.py]/[line: 91]/[delete] 接收到的参数id <==== 1636598737 
+[2021-11-11 14:53:53] [INFO] [api.py]/[line: 95]/[delete] <TestCase 1636598737> 
+[2021-11-11 14:53:53] [INFO] [test_api.py]/[line: 36]/[test_delete] {'code': 0, 'msg': 'Case id 1636598737 success delete'} 
+[2021-11-11 14:54:28] [INFO] [api.py]/[line: 44]/[post] 接收到的参数 <==== {'id': 1636598737, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': '个人信息'} 
+[2021-11-11 14:54:28] [INFO] [api.py]/[line: 49]/[post] None 
+[2021-11-11 14:54:28] [INFO] [api.py]/[line: 59]/[post] 将要返回的内容 ====> Case id 1636598737 success add 
+[2021-11-11 14:54:28] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 0, 'msg': 'Case id 1636598737 success add'} 
+[2021-11-11 14:55:49] [INFO] [api.py]/[line: 44]/[post] 接收到的参数 <==== {'id': 1636598737, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': '个人信息'} 
+[2021-11-11 14:55:49] [INFO] [api.py]/[line: 49]/[post] <TestCase 1636598737> 
+[2021-11-11 14:55:49] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 40001, 'msg': 'Case is exist'} 
+[2021-11-11 14:55:49] [INFO] [api.py]/[line: 44]/[post] 接收到的参数 <==== {'id': 1636598737, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': '个人信息'} 
+[2021-11-11 14:55:49] [INFO] [api.py]/[line: 49]/[post] <TestCase 1636598737> 
+[2021-11-11 14:55:49] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 40001, 'msg': 'Case is exist'} 
+[2021-11-11 14:56:27] [INFO] [api.py]/[line: 44]/[post] 接收到的参数 <==== {'id': 1636598737, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': '个人信息'} 
+[2021-11-11 14:56:28] [INFO] [api.py]/[line: 49]/[post] <TestCase 1636598737> 
+[2021-11-11 14:56:28] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 40001, 'msg': 'Case is exist'} 
+[2021-11-11 14:56:28] [INFO] [api.py]/[line: 44]/[post] 接收到的参数 <==== {'id': 1636598737, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': '个人信息'} 
+[2021-11-11 14:56:28] [INFO] [api.py]/[line: 49]/[post] <TestCase 1636598737> 
+[2021-11-11 14:56:28] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 40001, 'msg': 'Case is exist'} 
+[2021-11-11 14:57:03] [INFO] [api.py]/[line: 44]/[post] 接收到的参数 <==== {'id': 1636598737, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': '个人信息'} 
+[2021-11-11 14:57:03] [INFO] [api.py]/[line: 49]/[post] <TestCase 1636598737> 
+[2021-11-11 14:57:03] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 40001, 'msg': 'Case is exist'} 
+[2021-11-11 14:57:03] [INFO] [api.py]/[line: 44]/[post] 接收到的参数 <==== {'id': 1636598737, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': '个人信息'} 
+[2021-11-11 14:57:03] [INFO] [api.py]/[line: 49]/[post] <TestCase 1636598737> 
+[2021-11-11 14:57:03] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 40001, 'msg': 'Case is exist'} 
+[2021-11-11 14:57:40] [INFO] [api.py]/[line: 44]/[post] 接收到的参数 <==== {'id': 1636598737, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': '个人信息'} 
+[2021-11-11 14:57:40] [INFO] [api.py]/[line: 49]/[post] <TestCase 1636598737> 
+[2021-11-11 14:57:40] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 40001, 'msg': 'Case is exist'} 
+[2021-11-11 14:57:41] [INFO] [api.py]/[line: 44]/[post] 接收到的参数 <==== {'id': 1636598737, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': '个人信息'} 
+[2021-11-11 14:57:41] [INFO] [api.py]/[line: 49]/[post] <TestCase 1636598737> 
+[2021-11-11 14:57:41] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 40001, 'msg': 'Case is exist'} 
+[2021-11-11 14:58:03] [INFO] [api.py]/[line: 44]/[post] 接收到的参数 <==== {'id': 1636598737, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': '个人信息'} 
+[2021-11-11 14:58:03] [INFO] [api.py]/[line: 49]/[post] <TestCase 1636598737> 
+[2021-11-11 14:58:03] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 40001, 'msg': 'Case is exist'} 
+[2021-11-11 14:58:20] [INFO] [api.py]/[line: 44]/[post] 接收到的参数 <==== {'id': 1636598737, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': '个人信息'} 
+[2021-11-11 14:58:20] [INFO] [api.py]/[line: 49]/[post] <TestCase 1636598737> 
+[2021-11-11 14:58:20] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 40001, 'msg': 'Case is exist'} 
+[2021-11-11 14:58:20] [INFO] [api.py]/[line: 44]/[post] 接收到的参数 <==== {'id': 1636598737, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': '个人信息'} 
+[2021-11-11 14:58:20] [INFO] [api.py]/[line: 49]/[post] <TestCase 1636598737> 
+[2021-11-11 14:58:20] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 40001, 'msg': 'Case is exist'} 
+[2021-11-11 14:58:50] [INFO] [api.py]/[line: 44]/[post] 接收到的参数 <==== {'id': 1636598737, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': '个人信息'} 
+[2021-11-11 14:58:50] [INFO] [api.py]/[line: 49]/[post] <TestCase 1636598737> 
+[2021-11-11 14:58:50] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 40001, 'msg': 'Case is exist'} 
+[2021-11-11 14:59:49] [INFO] [api.py]/[line: 91]/[delete] 接收到的参数id <==== 1636598737 
+[2021-11-11 14:59:49] [INFO] [api.py]/[line: 95]/[delete] <TestCase 1636598737> 
+[2021-11-11 14:59:49] [INFO] [test_api.py]/[line: 36]/[test_delete] {'code': 0, 'msg': 'Case id 1636598737 success delete'} 
+[2021-11-11 15:00:08] [INFO] [api.py]/[line: 44]/[post] 接收到的参数 <==== {'id': 1636598737, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': '个人信息'} 
+[2021-11-11 15:00:08] [INFO] [api.py]/[line: 49]/[post] None 
+[2021-11-11 15:00:08] [INFO] [api.py]/[line: 59]/[post] 将要返回的内容 ====> Case id 1636598737 success add 
+[2021-11-11 15:00:08] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 0, 'msg': 'Case id 1636598737 success add'} 
+[2021-11-11 15:00:08] [INFO] [api.py]/[line: 44]/[post] 接收到的参数 <==== {'id': 1636598737, 'username': '周栒', 'email': 'ZHOUXUN@bONREE.COM', 'info': '个人信息'} 
+[2021-11-11 15:00:08] [INFO] [api.py]/[line: 49]/[post] <TestCase 1636598737> 
+[2021-11-11 15:00:08] [INFO] [test_api.py]/[line: 27]/[test_add] {'code': 40001, 'msg': 'Case is exist'} 
+[2021-11-11 15:00:39] [INFO] [api.py]/[line: 91]/[delete] 接收到的参数id <==== 1636598737 
+[2021-11-11 15:00:39] [INFO] [api.py]/[line: 95]/[delete] <TestCase 1636598737> 
+[2021-11-11 15:00:39] [INFO] [test_api.py]/[line: 36]/[test_delete] {'code': 0, 'msg': 'Case id 1636598737 success delete'} 
+[2021-11-11 15:00:59] [INFO] [api.py]/[line: 70]/[put] 接收到的参数 <==== {'id': 1636598737, 'username': '周栒', 'email': 'zhouxun@bonree.com1', 'info': '个人信息1111'} 
+[2021-11-11 15:00:59] [INFO] [api.py]/[line: 75]/[put] None 
+[2021-11-11 15:00:59] [INFO] [test_api.py]/[line: 64]/[test_update] {'code': 40002, 'msg': 'Case is not exist'} 
